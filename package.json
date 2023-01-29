@@ -1,0 +1,31 @@
+{
+  "name": "7d2d_discord_bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that remotely connects to a 7 Days To Die dedicated server via telnet.",
+  "main": "7d2dbot.js",
+  "scripts": {
+    "test": "node 7d2dbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Armag3ddon/7d2d_discord_bot.git"
+  },
+  "keywords": [
+    "discord",
+    "7d2d",
+    "bot"
+  ],
+  "author": "Felix Wagner",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Armag3ddon/7d2d_discord_bot/issues"
+  },
+  "homepage": "https://github.com/Armag3ddon/7d2d_discord_bot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}
